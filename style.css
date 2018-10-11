@@ -8,11 +8,6 @@
     src: url("nunito/Nunito-Light.ttf");
 }
 
-html {
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-}
-
 body {
     background-color: white;
 }
