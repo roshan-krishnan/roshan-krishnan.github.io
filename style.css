@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "NunitoExtraLight";
-    src: url("nunito/Nunito-ExtraLight.ttf");
-}
-
-@font-face {
     font-family: "NunitoLight";
     src: url("nunito/Nunito-Light.ttf");
 }
@@ -18,7 +13,7 @@ body {
 }
 
 h1 {
-    font-family: "NunitoExtraLight";
+    font-family: "NunitoLight";
     font-size: 4.0rem;
     font-weight: normal;
     color: #5764c6;
