@@ -8,6 +8,11 @@
     src: url("nunito/Nunito-Light.ttf");
 }
 
+html {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
 body {
     background-color: white;
 }
@@ -15,6 +20,7 @@ body {
 h1 {
     font-family: "NunitoExtraLight";
     font-size: 4.0rem;
+    font-weight: normal;
     color: #5764c6;
     margin-bottom: 0rem;
     margin-top: 0rem;
