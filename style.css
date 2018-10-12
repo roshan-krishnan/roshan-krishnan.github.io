@@ -17,9 +17,10 @@ h1 {
     font-size: 4.0rem;
     font-weight: normal;
     color: #5764c6;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     text-align: center;
+    line-height: 1.0;
 }
 
 a {
@@ -52,13 +53,17 @@ p a:hover {
     color: #5764c6;
 }
 
+br {
+    display: none;
+}
+
 img {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    height: 16.0rem;
-    width: 16.0rem;
+    height: auto;
+    width: 16rem;
 }
 
 .imageContainer {
@@ -84,4 +89,20 @@ img {
 
 .icon:hover {
     opacity: 0.4;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    img {
+         width: 50%;
+    }
+    
+    br {
+        display: inherit;
+    }
+    
+    p {
+        line-height: 1.5;
+    }
 }
